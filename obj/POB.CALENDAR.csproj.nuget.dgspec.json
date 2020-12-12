@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/brunoalves/Projetos/web/ALTRAN/POB.CALENDAR/POB.CALENDAR.csproj": {}
+  },
+  "projects": {
+    "/Users/brunoalves/Projetos/web/ALTRAN/POB.CALENDAR/POB.CALENDAR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/brunoalves/Projetos/web/ALTRAN/POB.CALENDAR/POB.CALENDAR.csproj",
+        "projectName": "POB.CALENDAR",
+        "projectPath": "/Users/brunoalves/Projetos/web/ALTRAN/POB.CALENDAR/POB.CALENDAR.csproj",
+        "packagesPath": "/Users/brunoalves/.nuget/packages/",
+        "outputPath": "/Users/brunoalves/Projetos/web/ALTRAN/POB.CALENDAR/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/brunoalves/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[3.21.0, )"
+            },
+            "Microsoft.Graph.Auth": {
+              "target": "Package",
+              "version": "[1.0.0-preview.6, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.24.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "coverlet.msbuild": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
